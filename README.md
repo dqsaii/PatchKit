@@ -1,6 +1,6 @@
 # PatchKit starter
 
-SwiftUI prototype for replacing files only inside folders explicitly selected by the user through the iOS Files picker.
+SwiftUI prototype for replacing files only inside folders explicitly selected by the user through the iOS Files picker. The main view is split into smaller computed view sections to reduce SwiftUI type-checking complexity.
 
 ## Build an unsigned IPA
 1. Create a GitHub repository and upload this folder's contents to its root.
