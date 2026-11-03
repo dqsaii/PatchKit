@@ -1,0 +1,21 @@
+name: PatchKit
+options:
+  bundleIdPrefix: app.patchkit
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  PatchKit:
+    type: application
+    platform: iOS
+    sources:
+      - PatchKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.patchkit.ios
+        PRODUCT_NAME: PatchKit
+        SWIFT_VERSION: 5.9
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_CFBundleDisplayName: PatchKit
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGNING_ALLOWED: NO
